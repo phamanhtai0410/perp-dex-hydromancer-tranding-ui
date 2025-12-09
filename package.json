@@ -1,0 +1,40 @@
+{
+  "name": "perp-dex-hydromancer-trading-ui",
+  "version": "1.0.0",
+  "description": "MVP trading interface using Hydromancer API to simulate Hyperliquid features",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phamanhtai0410/perp-dex-hydromancer-tranding-ui.git"
+  },
+  "keywords": [],
+  "author": "Pham Anh Tai <phamanhtai0410>",
+  "license": "ISC",
+
+  "bugs": {
+    "url": "https://github.com/phamanhtai0410/perp-dex-hydromancer-tranding-ui/issues"
+  },
+  "homepage": "https://github.com/phamanhtai0410/perp-dex-hydromancer-tranding-ui#readme",
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.12",
+    "@types/node": "^24.10.2",
+    "@types/react": "^19.2.7",
+    "autoprefixer": "^10.4.22",
+    "axios": "^1.13.2",
+    "lightweight-charts": "^5.0.9",
+    "next": "^16.0.8",
+    "postcss": "^8.5.6",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "recharts": "^3.5.1",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3",
+    "zustand": "^5.0.9"
+  }
+}
