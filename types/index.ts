@@ -1,18 +1,21 @@
 // Market data types
 export interface Market {
   symbol: string
-  name: string
+  // name: string
   price: number
   change24h: number
   volume24h: number
   high24h: number
   low24h: number
+  fundingRate: number
+  openInterest: number
+  maxLeverage: number
 }
 
 export interface OrderBook {
   bids: [number, number][] // [price, size]
   asks: [number, number][]
-  timestamp: number
+  // timestamp: number
 }
 
 export interface Candle {
